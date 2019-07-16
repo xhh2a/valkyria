@@ -1,0 +1,25 @@
+state = {
+	id = 92
+	name = "STATE_92"
+
+	history = {
+		owner = SWZ
+		add_core_of = SWZ
+		add_claim_by = FHI
+		victory_points = {
+			3559 2
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 1
+		}
+
+	}
+
+	provinces = {
+		3521 3559 6484 9521 9544 13546
+	}
+	manpower = 2464600
+	state_category = town
+}

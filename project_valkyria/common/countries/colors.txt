@@ -1,0 +1,14 @@
+SWZ = {
+  color = hsv { 0  100  82 }
+  color_ui = hsv { 0 100 58 }
+}
+
+GAL = {
+  color = hsv { 193  74  79 }
+  color_ui = hsv { 193 74 85 }
+}
+
+VAL = {
+  color = hsv { 214  80  36 }
+  color_ui = hsv { 214 80 63 }
+}

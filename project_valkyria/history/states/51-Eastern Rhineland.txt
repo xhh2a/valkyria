@@ -1,0 +1,36 @@
+state = {
+	id = 51
+	name = "STATE_51"
+	resources = {
+		steel = 40
+	}
+
+	history = {
+		owner = ASN
+		add_core_of = ASN
+		add_claim_by = SWZ
+		victory_points = {
+			6469 35
+		}
+		victory_points = {
+			6570 20
+		}
+
+
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 9
+			air_base = 3
+			3512 = {
+				bunker = 3
+			}
+		}
+	}
+
+	provinces = {
+		529 3512 6469 6570 9482
+	}
+	manpower = 3458612
+	state_category = megalopolis
+}

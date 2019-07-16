@@ -1,0 +1,41 @@
+### Neutral
+GAL = "countries/Neutral.txt"
+
+### Neutral North
+NMR = "countries/Neutral.txt" # Namur
+EMN = "countries/Neutral.txt" # Emmen
+BRG = "countries/Neutral.txt" # Bergvin
+
+### Neutral Med
+ZWL = "countries/Neutral.txt" #Zwolle
+KOR = "countries/Neutral.txt" #Kortrijk
+HZB = "countries/Neutral.txt" #Hazebrouck
+TER = "countries/Neutral.txt" #Terneuzen
+MEP = "countries/Neutral.txt" #Meppel
+DER = "countries/Neutral.txt" #Derft
+OST = "countries/Neutral.txt" #Ostende
+ARR = "countries/Neutral.txt" #Arras
+
+### Federation
+ENB = "countries/Federation.txt" # Edinburgh
+VAL = "countries/Federation.txt" # Valois
+EMD = "countries/Federation.txt" # Emden
+ROS = "countries/Federation.txt" # Roeselare
+WES = "countries/Federation.txt" # Wesel
+VIN = "countries/Federation.txt" # Vinland
+ASN = "countries/Federation.txt" # Assen
+ALN = "countries/Federation.txt" # Arlon
+SNK = "countries/Federation.txt" # Sneek
+
+### Empire
+SWZ = "countries/Empire.txt" # Schwartzgrad 
+ALA = "countries/Empire.txt" # Alast 
+SGT = "countries/Empire.txt" # Sigt
+GAR = "countries/Empire.txt" # Garsbruck (Eckholz) - VC4 Glossary Port Kosvall
+FHI = "countries/Empire.txt" # Fhirald (Lendorf)
+NRD = "countries/Empire.txt" # Nord Republic - VC4 Glossary Loweholm
+LOW = "countries/Empire.txt" # Loweholm (country unknown)
+
+### Rebels
+DEL = "countries/Federation.txt" # Delfziji
+DOK = "countries/Federation.txt" # Dokkum

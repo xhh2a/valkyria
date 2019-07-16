@@ -1,0 +1,138 @@
+bookmarks = {
+	bookmark = {
+		name = "EW1_CEASEFIRE_SCENARIO_NAME"
+		desc = "EW1_SCENARIO_DESC"
+		date = 1915.6.28.1
+		picture = "GFX_select_date_1915"
+		default_country = "GAL"
+		default = yes
+
+		"GAL" = {
+			history = "GAL_CEASEFIRE_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+			}
+
+			focuses = {
+			}
+		}
+
+		"VAL" = {
+			history = "VAL_CEASEFIRE_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+
+			focuses = {
+			}
+		}
+
+		"ENB" = {
+			history = "ENB_CEASEFIRE_DESC"
+			ideology = social_conservative
+			ideas = {
+			}
+
+			focuses = {
+			}
+		}
+
+		"SWZ" = {
+			history = "SWZ_CEASEFIRE_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+			}
+
+			focuses = {
+			}
+		}
+
+		"FHI" = {
+			history = "FHI_CEASEFIRE_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"NRD" = {
+			history = "NRD_CEASEFIRE_DESC"
+			ideology = social_liberal
+			ideas = {
+			}
+
+			focuses = {
+			}
+		}
+
+		"---" = {
+			history = "OTHER_CEASEFIRE_DESC"
+		}
+
+		"ZWL" = {
+			minor = yes
+			history = "ZWL_CEASEFIRE_DESC"
+			ideology = social_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"OST" = {
+			minor = yes
+			history = "EMN_CEASEFIRE_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"MEP" = {
+			minor = yes
+			history = "BRG_CEASEFIRE_DESC"
+			ideology = social_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"WES" = {
+			minor = yes
+			history = "WES_CEASEFIRE_DESC"
+			ideology = market_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"ASN" = {
+			minor = yes
+			history = "ASN_CEASEFIRE_DESC"
+			ideology = social_conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"ALA" = {
+			minor = yes
+			history = "ALA_CEASEFIRE_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=675
+	name="STATE_675"
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SAU
+		add_claim_by = JBS
+
+	}
+
+	provinces={
+		4932 10791
+	}
+	manpower=136012
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
