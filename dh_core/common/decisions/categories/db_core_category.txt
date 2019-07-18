@@ -1,0 +1,3 @@
+dh_core = {
+  icon = generic_prospect_for_resources
+}

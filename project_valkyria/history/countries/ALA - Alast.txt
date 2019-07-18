@@ -1,4 +1,4 @@
-capital = 91
+﻿capital = 91
 
 oob = "ALA"
 set_naval_oob = "ALA_naval"

@@ -1,0 +1,276 @@
+###
+### Ambition Areas
+###
+### Each country has a list of states/regions which it will take in a peace conference even if it
+### doesn't have claims/cores. Other countries in their faction will let them take these areas unless there's a conflict.
+### If they're a minor, or they're in a faction but not the leader, they won't expand outside of this ambition area unless
+### there's no-one involved in the peace conference who can take the land.
+###
+### If a country is NOT in this list, then it only takes cores/claims.
+###
+
+create_ambition_areas = {
+	every_state = {
+		if = {
+			limit = {
+				OR = {
+					is_core_of = GAL
+					is_claimed_by = GAL
+				}
+			}
+			set_variable = { ambition_area_@GAL = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = NMR
+					is_claimed_by = NMR
+				}
+			}
+			set_variable = { ambition_area_@NMR = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = EMN
+					is_claimed_by = EMN
+				}
+			}
+			set_variable = { ambition_area_@EMN = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = BRG
+					is_claimed_by = BRG
+				}
+			}
+			set_variable = { ambition_area_@BRG = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ZWL
+					is_claimed_by = ZWL
+				}
+			}
+			set_variable = { ambition_area_@ZWL = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = KOR
+					is_claimed_by = KOR
+				}
+			}
+			set_variable = { ambition_area_@KOR = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = TER
+					is_claimed_by = TER
+				}
+			}
+			set_variable = { ambition_area_@TER = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = MEP
+					is_claimed_by = MEP
+				}
+			}
+			set_variable = { ambition_area_@MEP = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = DER
+					is_claimed_by = DER
+				}
+			}
+			set_variable = { ambition_area_@DER = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = OST
+					is_claimed_by = OST
+				}
+			}
+			set_variable = { ambition_area_@OST = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ARR
+					is_claimed_by = ARR
+				}
+			}
+			set_variable = { ambition_area_@ARR = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ENB
+					is_claimed_by = ENB
+				}
+			}
+			set_variable = { ambition_area_@ENB = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = VAL
+					is_claimed_by = VAL
+				}
+			}
+			set_variable = { ambition_area_@VAL = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = EMD
+					is_claimed_by = EMD
+				}
+			}
+			set_variable = { ambition_area_@EMD = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ROS
+					is_claimed_by = ROS
+				}
+			}
+			set_variable = { ambition_area_@ROS = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = WES
+					is_claimed_by = WES
+				}
+			}
+			set_variable = { ambition_area_@WES = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = VIN
+					is_claimed_by = VIN
+				}
+			}
+			set_variable = { ambition_area_@VIN = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ASN
+					is_claimed_by = ASN
+				}
+			}
+			set_variable = { ambition_area_@ASN = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ALN
+					is_claimed_by = ALN
+				}
+			}
+			set_variable = { ambition_area_@ALN = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SNK
+					is_claimed_by = SNK
+				}
+			}
+			set_variable = { ambition_area_@SNK = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SWZ
+					is_claimed_by = SWZ
+				}
+			}
+			set_variable = { ambition_area_@SWZ = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = ALA
+					is_claimed_by = ALA
+				}
+			}
+			set_variable = { ambition_area_@ALA = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = SGT
+					is_claimed_by = SGT
+				}
+			}
+			set_variable = { ambition_area_@SGT = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = GAR
+					is_claimed_by = GAR
+				}
+			}
+			set_variable = { ambition_area_@GAR = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = FHI
+					is_claimed_by = FHI
+				}
+			}
+			set_variable = { ambition_area_@FHI = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = NRD
+					is_claimed_by = NRD
+				}
+			}
+			set_variable = { ambition_area_@NRD = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = LOW
+					is_claimed_by = LOW
+				}
+			}
+			set_variable = { ambition_area_@LOW = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = DEL
+					is_claimed_by = DEL
+				}
+			}
+			set_variable = { ambition_area_@DEL = 1 }
+		}
+		if = {
+			limit = {
+				OR = {
+					is_core_of = DOK
+					is_claimed_by = DOK
+				}
+			}
+			set_variable = { ambition_area_@DOK = 1 }
+		}
+	}
+}

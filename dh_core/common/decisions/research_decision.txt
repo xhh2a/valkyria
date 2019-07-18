@@ -1,0 +1,125 @@
+dh_core = {
+  research_slot_update = {
+    days_remove = 30 #Stays for 5 days before being removed
+    days_re_enable = 0 #Will show up in the interface and can be selected again after 5 days
+
+    fire_only_once = no
+
+    remove_effect = {
+      set_variable = {
+        _factory_research_slots_1 = num_of_factories
+      }
+      set_variable = {
+        _factory_research_slots_2 = _factory_research_slots_1
+      }
+      subtract_from_variable = { _factory_research_slots_2 = 35 }
+      set_variable = {
+        _factory_research_slots_3 = _factory_research_slots_2
+      }
+      divide_variable  = { _factory_research_slots_3 = 35 }
+      set_variable = {
+        _factory_research_slots_4 = _factory_research_slots_3
+      }
+      clamp_variable = {
+        var = _factory_research_slots_4
+        min = 0
+        max = 5
+      }
+      add_to_variable = {
+        _factory_research_slots_4 = 2
+      }
+      add_to_variable = {
+        _factory_research_slots_4 = additional_research_slots?0
+      }
+      set_variable = {
+        _factory_research_slots_7 = _factory_research_slots_4
+      }
+      clamp_variable = {
+        var = _factory_research_slots_7
+        min = 2
+        max = 7
+      }
+      if = {
+        limit = {
+          check_variable = {
+            var = _factory_research_slots_7
+            value = 2
+            compare = less_than
+          }
+        }
+        set_research_slots = 2
+      }
+      if = {
+        limit = {
+          check_variable = {
+            var = _factory_research_slots_7
+            value = 2
+            compare = greater_than_or_equals
+          }
+          check_variable = {
+            var = _factory_research_slots_7
+            value = 3
+            compare = less_than
+          }
+        }
+        set_research_slots = 3
+      }
+      if = {
+        limit = {
+          check_variable = {
+            var = _factory_research_slots_7
+            value = 3
+            compare = greater_than_or_equals
+          }
+          check_variable = {
+            var = _factory_research_slots_7
+            value = 4
+            compare = less_than
+          }
+        }
+        set_research_slots = 4
+      }
+      if = {
+        limit = {
+          check_variable = {
+            var = _factory_research_slots_7
+            value = 4
+            compare = greater_than_or_equals
+          }
+          check_variable = {
+            var = _factory_research_slots_7
+            value = 5
+            compare = less_than
+          }
+        }
+        set_research_slots = 5
+      }
+      if = {
+        limit = {
+          check_variable = {
+            var = _factory_research_slots_7
+            value = 5
+            compare = greater_than_or_equals
+          }
+          check_variable = {
+            var = _factory_research_slots_7
+            value = 6
+            compare = less_than
+          }
+        }
+        set_research_slots = 6
+      }
+      if = {
+        limit = {
+          check_variable = {
+            var = _factory_research_slots_7
+            value = 6
+            compare = greater_than_or_equals
+          }
+        }
+        set_research_slots = 7
+      }
+      activate_decision = research_slot_update
+    }
+  }  
+}
