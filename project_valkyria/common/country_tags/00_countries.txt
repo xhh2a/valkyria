@@ -30,12 +30,19 @@ SNK = "countries/Federation.txt" # Sneek
 ### Empire
 SWZ = "countries/Empire.txt" # Schwartzgrad 
 ALA = "countries/Empire.txt" # Alast 
-SGT = "countries/Empire.txt" # Sigt
-GAR = "countries/Empire.txt" # Garsbruck (Eckholz) - VC4 Glossary Port Kosvall
+#SGT = "countries/Empire.txt" # Sigt
+#GAR = "countries/Empire.txt" # Garsbruck (Eckholz) - VC4 Glossary Port Kosvall
 FHI = "countries/Empire.txt" # Fhirald (Lendorf)
 NRD = "countries/Empire.txt" # Nord Republic - VC4 Glossary Loweholm
-LOW = "countries/Empire.txt" # Loweholm (country unknown)
+#LOW = "countries/Empire.txt" # Loweholm (country unknown)
 
 ### Rebels
-DEL = "countries/Federation.txt" # Delfziji
-DOK = "countries/Federation.txt" # Dokkum
+#DEL = "countries/Federation.txt" # Delfziji
+#DOK = "countries/Federation.txt" # Dokkum
+
+#[20:27:45][history.cpp:271]: SGT - is missing a history file.
+#[20:27:45][history.cpp:271]: GAR - is missing a history file.
+#[20:27:45][history.cpp:271]: NRD - is missing a history file.
+#[20:27:45][history.cpp:271]: LOW - is missing a history file.
+#[20:27:45][history.cpp:271]: DEL - is missing a history file.
+#[20:27:45][history.cpp:271]: DOK - is missing a history file.

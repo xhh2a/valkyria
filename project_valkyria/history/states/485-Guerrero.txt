@@ -1,8 +1,17 @@
-state = {
-	id = 485
-	name = "STATE_485"
 
-	history = {
+state={
+	id=485
+	name="STATE_485"
+	manpower = 1598311
+	
+	state_category = rural
+
+	resources={
+		steel=4 #was 2
+	}
+
+
+	history={
 		owner = MEX
 		buildings = {
 			infrastructure = 3
@@ -13,13 +22,18 @@ state = {
 		}
 		add_core_of = MEX
 		victory_points = {
-			10832 3
+			10730 5
+		}
+		victory_points = {
+			4887 3
+		}
+		victory_points = {
+			8032 1
 		}
 	}
 
-	provinces = {
-		4887 5066 8032 10730 10832 13449
+	provinces={
+		4887 5066 8032 10730 10832 
 	}
-	manpower = 1598311
-	state_category = rural
+	
 }

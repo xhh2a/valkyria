@@ -1,4 +1,4 @@
-﻿capital = 15
+﻿capital = 5
 
 oob = "EMD"
 set_naval_oob = "EMD_naval"

@@ -1,4 +1,4 @@
-﻿capital = 12
+﻿capital = 3
 
 oob = "GAL"
 set_naval_oob = "GAL_naval"

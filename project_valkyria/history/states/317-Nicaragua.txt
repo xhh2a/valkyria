@@ -1,33 +1,35 @@
-state = {
-	id = 317
-	name = "STATE_317"
-	resources = {
-		chromium = 1
+state={
+	id=317
+	name="STATE_317"
+	resources={
+		chromium=1 # was: 1
 	}
 
-	history = {
+	state_category = town
+
+	history={
 		owner = NIC
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 2
 			air_base = 1
 			12738 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = NIC
 		victory_points = {
-			13437 5
+			12738 3
 		}
-		victory_points = {
-			12738 1
-		}
+
 	}
 
-	provinces = {
-		12738 13178 13139 13437 13439 13685 13686 13687 13689
+	provinces={
+		1988 2075 10728 12738 13139 13178 
 	}
-	manpower = 533679
-	state_category = hyvin
+	manpower=683000
+	buildings_max_level_factor=1.000
 }

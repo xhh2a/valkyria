@@ -1,17 +1,16 @@
-state = {
-	id = 15
-	name = "STATE_15"
-	manpower = 2331100
-	resources = {
-		steel = 36
-	}
 
+state={
+	id=15
+	name="STATE_15"
+	manpower = 2332100
+	resources={
+		steel=21 # was: 36
+	}
+	
 	state_category = city
 
-	history = {
-		owner = SNK
-		add_core_of = SNK
-		add_claim_by = VAL
+	history={
+		owner = FRA
 		victory_points = {
 			9434 10
 		}
@@ -19,34 +18,31 @@ state = {
 			6449 3
 		}
 		victory_points = {
-			11563 3
+			11563 5
 		}
 		victory_points = {
-			11535 1
+			485 3
 		}
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
-			arms_factory = 1
 			air_base = 6
-			dockyard = 2
 			6449 = {
-				naval_base = 6
+				naval_base = 3
 				coastal_bunker = 1
 			}
-			485 = {
+			9434 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
+			485= {
 				naval_base = 1
 			}
-			11521 = {
-				bunker = 1
-			}
-			11535 = {
-				bunker = 1
-			}
 		}
+		add_core_of = FRA
 	}
 
-	provinces = {
-		539 553 3534 3549 3579 6449 6599 9434 9550 9578 11521 11535 11563 485 6569
+	provinces={
+		485 539 553 3534 3549 3579 6449 6569 6599 9434 9550 9578 11521 11535 11563 
 	}
 }

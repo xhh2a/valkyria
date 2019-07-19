@@ -1,22 +1,27 @@
-state = {
-	id = 738
-	name = "STATE_738"
+state={
+	id=738
+	name="STATE_738"
 
-	history = {
-		owner = DEI
-		add_core_of = DEI
+	history={
+		owner = INS
+		add_core_of = INS
 		buildings = {
 			infrastructure = 1
 
 			4579 = {
 				naval_base = 1
+
 			}
+
+
 		}
+
 	}
 
-	provinces = {
-		4579
+	provinces={
+		4579 
 	}
-	manpower = 36146
-	state_category = "small_island"
+	manpower=36146
+	buildings_max_level_factor=1	
+	state_category="small_island"
 }
