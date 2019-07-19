@@ -579,38 +579,6 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 }
 
 DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			is_in_faction_with = MAF
-			NOT = { tag = MAF }
-		}
-		custom_trigger_tooltip = {
-			tooltip = GER_cannot_join_ally_war
-			NOT = {
-				POR = { is_in_faction = yes }
-				FROM = {
-					tag = MAF
-					has_war_with = POR
-					has_global_flag = MAF_POR_border_war
-				}
-			}
-		}
-	}
-	if = {
-		limit = {
-			is_in_faction_with = GEA
-			NOT = { tag = GEA }
-		}
-		custom_trigger_tooltip = {
-			tooltip = GER_cannot_join_ally_war
-			NOT = {
-				INC = { is_in_faction = yes }
-				FROM = {
-					tag = GEA
-					has_war_with = INC
-				}
-			}
-		}
-	}
+	always = no
 }
 

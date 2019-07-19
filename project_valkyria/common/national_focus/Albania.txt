@@ -1,0 +1,19 @@
+#######################
+# Albanian Focus Tree #
+#######################
+
+focus_tree = {
+	id = albanian_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ALB
+		}
+	}
+	default = no
+
+	#####################
+	### Economic Path ###
+	#####################
+}

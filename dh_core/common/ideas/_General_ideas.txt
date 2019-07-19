@@ -352,12 +352,6 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 
-			allowed_to_remove = {
-				NOT = {
-					has_idea = HON_free_market
-				}
-			}
-
 			ai_will_do = {
 				factor = 8
 				modifier = {
