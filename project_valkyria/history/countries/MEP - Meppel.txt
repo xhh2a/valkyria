@@ -1,7 +1,6 @@
 capital = 5
 
-oob = "EMD"
-set_naval_oob = "EMD_naval"
+OOB = "ALB_1936"
 
 set_research_slots = 4
 
@@ -21,16 +20,16 @@ set_politics = {
 }
 
 set_popularities = {
-		totalist = 0
-		syndicalist = 5
-    radical_socialist = 10
-    social_democrat = 15
-    social_liberal = 15
-    market_liberal = 20
-    social_conservative = 15
-    authoritarian_democrat = 10
-    paternal_autocrat = 5
-    national_populist = 5
+	totalist = 0
+	syndicalist = 5
+	radical_socialist = 10
+	social_democrat = 15
+	social_liberal = 15
+	market_liberal = 20
+	social_conservative = 15
+	authoritarian_democrat = 10
+	paternal_autocrat = 5
+	national_populist = 5
 }
 
 add_ideas = {

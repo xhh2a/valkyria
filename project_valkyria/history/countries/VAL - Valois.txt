@@ -1,9 +1,6 @@
 ﻿capital = 1
 
-oob = "VAL"
-set_naval_oob = "VAL_naval"
-
-set_research_slots = 4
+OOB = "ALB_1936"
 
 # Starting tech
 set_technology = {
@@ -24,16 +21,16 @@ set_politics = {
 }
 
 set_popularities = {
-		totalist = 0
-		syndicalist = 5
-    radical_socialist = 15
-    social_democrat = 30
-    social_liberal = 25
-    market_liberal = 5
-    social_conservative = 0
-    authoritarian_democrat = 5
-    paternal_autocrat = 10
-    national_populist = 5
+	totalist = 0
+	syndicalist = 5
+	radical_socialist = 15
+	social_democrat = 30
+	social_liberal = 25
+	market_liberal = 5
+	social_conservative = 0
+	authoritarian_democrat = 5
+	paternal_autocrat = 10
+	national_populist = 5
 }
 
 create_faction = Atlantic_Federation
@@ -47,65 +44,4 @@ add_to_faction = ALN
 add_to_faction = ASN
 
 add_ideas = {
-}
-
-create_country_leader = {
-	name = "Sébastien Faure"
-	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
-	picture = "Portrait_France_Sebastien_Faure.tga"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-		#faure
-	}
-}
-
-create_country_leader = {
-	name = "Sébastien Faure"
-	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
-	picture = "Portrait_France_Sebastien_Faure.tga"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
-	traits = {
-		#faure
-	}
-}
-
-create_country_leader = {
-	name = "Sébastien Faure"
-	desc = "POLITICS_SEBASTIEN_FAURE_DESC"
-	picture = "Portrait_France_Sebastien_Faure.tga"
-	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
-	traits = {
-		#faure
-	}
-}
-
-create_country_leader = {
-	name = "Felix Gouin"
-	desc = "POLITICS_FELIX_GOUIN_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-### Field Marshal
-### Corps Commander
-
-create_field_marshal = {
-	name = "Jacques Duclos"
-	portrait_path = "gfx/leaders/FRA/Portrait_France_Jacques_Duclos.tga"
-	traits = {
-		politically_connected
-		inspirational_leader
-		offensive_doctrine
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 1
-	id = 200
 }
